@@ -1,6 +1,13 @@
+// main.js
 function showMessage() {
   document.getElementById('output').textContent = 'SRI script loaded successfully ✅';
 }
+
+// Attach handler without inline attributes
+document.addEventListener('DOMContentLoaded', function () {
+  const btn = document.querySelector('button');
+  if (btn) btn.addEventListener('click', showMessage);
+});
 
 
 /*
