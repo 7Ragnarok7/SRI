@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
   if (btn) btn.addEventListener('click', showMessage);
 });
 
-
+/*
 // Cookie Exfiltration 
 function Steal() {
   
